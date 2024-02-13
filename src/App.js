@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Nitay from './Nitay'
+import Roi from './Roi'
+import Maor from './Maor'
+import Ahia from './Ahia'
+import Asa from './Asa'
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>App
+
+<Nitay></Nitay>
+<Roi></Roi>
+<Maor></Maor>
+<Ahia></Ahia>
+<Asa></Asa>
+
+
     </div>
-  );
+    
+  )
 }
 
-export default App;
+export default App
